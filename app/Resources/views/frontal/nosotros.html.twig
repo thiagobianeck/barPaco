@@ -1,0 +1,21 @@
+{# Plantilla de nuestra aplicación #}
+{% extends 'base.html.twig' %}
+{# TITULO #}
+{% block titulo %}
+Nuestro equipo
+{% endblock %}
+{# Contenido #}
+{% block contenido %}
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Page Heading/Breadcrumbs -->
+  <h1 class="mt-4 mb-3">Bar de Paco
+    <small>Equipo</small>
+  </h1>
+
+  <!-- Image Header -->
+  <img class="img-fluid rounded mb-4" src="{{ asset('img/nosotros.png') }}" alt="">
+
+</div>
+{% endblock %}
